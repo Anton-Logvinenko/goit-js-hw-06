@@ -52,7 +52,7 @@ function onInputNumber() {
 }
 
 // Очистить колекцию
-btnDestroy.addEventListener("click", onBtnDestroy);
-function onBtnDestroy() {
+btnDestroy.addEventListener("click", destroyBoxes);
+function destroyBoxes() {
   boxes.innerHTML = "";
 }
